@@ -46,7 +46,7 @@ bot.on("chat", () => {
 };
 
 setInterval(botDuyuru(), 300000);
-};
+});
 
 function StartBot() { //created StartBot function
 
