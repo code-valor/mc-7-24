@@ -40,13 +40,6 @@ console.log("Connecting...") //logs "Connecting..." into the console
 
 StartBot() //calls the StartBot function (runs everything inside it)
 
-  function botDuyuru() {
-  bot.chat('Unix: Minecraft 7/24 Sunucu Servisi - https://unix-bot.herokuapp.com');
-
-
-setInterval(botDuyuru(), 300000);
-});
-
 function StartBot() { //created StartBot function
 
 bot.on("move", () => { //triggers when the bot moves
